@@ -29,8 +29,8 @@ echo "Installing Git-Flow"
 brew install git-flow-avh
 
 echo "For install Node"
+brew install node
 echo "https://nodejs.org/en/download/"
-
 
 echo "Installing Angular CLI"
 npm install -g @angular/cli
@@ -40,5 +40,11 @@ npm install -g create-react-app
 
 echo "Installing Gatsby-cli"
 npm install -g gatsby-cli
+
+echo "Installing react-native-CLI"
+brew install react-native-cli
+
+echo "Installing Docker"
+brew install docker
 
 echo "Done!"
